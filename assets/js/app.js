@@ -1,5 +1,5 @@
 angular.module("app",[]);
 
-angular.module("app").config(function () {
+angular.module("app").run(function () {
     console.log("Running");
 })
