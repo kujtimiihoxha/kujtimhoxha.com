@@ -1,4 +1,4 @@
-angular.module("app",[ ]).config(function($interpolateProvider) {
+angular.module("kujtimBlog",[ ]).config(function($interpolateProvider) {
     $interpolateProvider.startSymbol('<%');
     $interpolateProvider.endSymbol('%>');
 });
